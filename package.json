@@ -1,0 +1,11 @@
+{
+  "name": "ngb-modal-draggable",
+  "version": "1.0.1",
+  "description": "a package that add draggable function to NgbModal",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mxu",
+  "license": "MIT"
+}

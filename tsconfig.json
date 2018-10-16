@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "removeComments": true,
+        "experimentalDecorators": true
+    }
+}
