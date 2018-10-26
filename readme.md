@@ -43,9 +43,6 @@ Then just use in your modal component html
 ### Properties
 
 | Input | Type | Default | Description |
-| 
-
-| Input | Type | Default | Description |
 | ------ | ------ | ------ | ------ |
 | ngbModalDraggableHandle | HTMLElement | null | Use template variable to refer to the handle element. Then only the handle element is draggable |
 | ngbModalRootLevel | number | 2 | Set the root level from current element which set the directive. If you set the directive on the root element of the NgbModal component, the true root level would be 2 as the NgbModalService would add two parent element automatically |
