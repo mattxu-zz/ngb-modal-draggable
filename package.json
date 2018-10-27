@@ -7,11 +7,10 @@
   },
   "author": "mxu",
   "license": "MIT",
-  "peerDependencies": {
+  "peerDependencies": {},
+  "dependencies": {
     "@angular/core": "5.2.0",
     "@angular/compiler": "5.2.0"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "@angular/cli": "1.6.5",

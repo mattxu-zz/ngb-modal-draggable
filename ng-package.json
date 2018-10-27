@@ -6,5 +6,9 @@
 	"lib": {
 	  "entryFile": "src/public_api.ts"
 	}
-  }
+  },
+  "dest": "../ngb-modal-draggable-dist",
+  "whitelistedNonPeerDependencies": [
+    "."
+  ]
 }
