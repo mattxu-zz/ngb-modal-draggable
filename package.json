@@ -2,10 +2,19 @@
   "name": "ngb-modal-draggable",
   "version": "1.0.1",
   "description": "a package that add draggable function to NgbModal",
-  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "packagr": "ng-packagr -p ng-package.json"
   },
   "author": "mxu",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {},
+  "dependencies": {
+    "@angular/core": "5.2.0",
+    "@angular/compiler": "5.2.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.6.5",
+    "@angular/compiler-cli": "5.2.0",
+    "ng-packagr": "2.4.5"
+  }
 }
