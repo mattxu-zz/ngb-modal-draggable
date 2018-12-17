@@ -1,6 +1,6 @@
 {
   "name": "ngb-modal-draggable",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a package that add draggable function to NgbModal",
   "scripts": {
     "packagr": "ng-packagr -p ng-package.json"

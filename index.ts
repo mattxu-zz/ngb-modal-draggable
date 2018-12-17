@@ -1,0 +1,1 @@
+export * from './src/ngb-modal-draggable.module';

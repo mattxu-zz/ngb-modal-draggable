@@ -32,6 +32,7 @@ export class NgbModalDraggable implements AfterViewInit {
         this.md = true;
         this.topStart = event.clientY - Number(this.modalElement.style.top.replace('px', ''));
         this.leftStart = event.clientX - Number(this.modalElement.style.left.replace('px', ''));
+        event.preventDefault();
     }
 
     @HostListener('document:mouseup', ['$event'])
