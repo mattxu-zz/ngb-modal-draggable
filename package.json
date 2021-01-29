@@ -1,20 +1,27 @@
 {
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "ngb-modal-draggable",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "a package that add draggable function to NgbModal",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./src/public_api.ts"
+    }
+  },
   "scripts": {
-    "packagr": "ng-packagr -p ng-package.json"
+    "build": "ng-packagr -p package.json",
+    "publish": "npm run build && cd dist && npm publish"
   },
   "author": "mxu",
   "license": "MIT",
-  "peerDependencies": {},
-  "dependencies": {
-    "@angular/core": "5.2.0",
-    "@angular/compiler": "5.2.0"
+  "peerDependencies": {
+    "@angular/compiler": "~11.1.1",
+    "@angular/core": "~11.1.1"
   },
   "devDependencies": {
-    "@angular/cli": "1.6.5",
-    "@angular/compiler-cli": "5.2.0",
-    "ng-packagr": "2.4.5"
+    "@angular/cli": "~11.1.1",
+    "@angular/compiler-cli": "~11.1.1",
+    "ng-packagr": "~11.1.2",
+    "typescript": "^4.1.3"
   }
 }
