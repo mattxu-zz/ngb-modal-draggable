@@ -78,20 +78,6 @@
     tslib "^2.0.0"
     yargs "^16.1.1"
 
-"@angular/compiler@~11.1.1":
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-11.1.1.tgz#cafe43b52fb69f0b9493e597baec14fcffd13d7d"
-  integrity sha512-kybGddMBL6E2BFBOHIX39VsKVxH3yD7NA1g2mQUE9KIqLAavH0KLBr8B03R9MKb6+BElGpk/5yCyCkzkwQES7w==
-  dependencies:
-    tslib "^2.0.0"
-
-"@angular/core@~11.1.1":
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.1.1.tgz#62bf9ad93d5d88afacce3ea5b03803ec5790d20b"
-  integrity sha512-yBBLekXeDviZ+KW3DmGeOK0CK/yQ9gCy2uHY47KUDI4UTRRLz0NI5nS9NdKwk5bpCPId6ZPNsJtHPBFXRhAnNA==
-  dependencies:
-    tslib "^2.0.0"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1111,9 +1097,9 @@ debuglog@^1.0.1:
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deepmerge@^4.2.2:
   version "4.2.2"
